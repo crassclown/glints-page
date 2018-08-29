@@ -1,0 +1,197 @@
+.navbar-brand{
+    padding-left: 3% !important; 
+}
+.header{
+    background-color: #fffa65;
+    width: 100%;
+    min-height: 200px;
+    padding-top: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 50px;
+    color: black;
+}
+.header h2 b{
+    font-family: texgybold;
+    font-size: 1.2em;
+    border-bottom: black solid 10px;
+}
+.header p{
+    padding-top: 25px;
+    font-family: texgyreg;
+    font-size: 1.2em;
+}
+.header p b{
+    background-color: black;
+    color: #fffa65;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.header img{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.header button{
+    margin-top: 20px;
+    background-color: transparent;
+    color: black;
+    font-size: 1.3em;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-family: texgybold;
+    border: 1px solid;
+    box-shadow: 5px 10px;
+}
+.header button:hover, .content5 button:hover{
+    font-size: 1.4em;
+}
+.content1, .content2, .content3, .content4{
+    background-color: white;
+    width: 100%;
+    min-height: 80px;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 50px;
+    color: black;
+}
+.content1 .col{
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-right: #0abde3 solid 8px;
+}
+.content1 h2 b, .content2 h2 b, .content4 h2 b{
+    font-family: texgybold;
+    font-size: 1.4em;
+}
+.content1 h2{
+    padding-bottom: 70px;
+}
+.content1 h3{
+    font-family: texgyreg;
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+.content1 h4{
+    font-size: 1.1em;
+    line-height: 1.7;
+}
+.content1 p{
+    padding-top: 20px;
+    font-family: texgyreg;
+    font-size: 1.1em;
+}
+.content2 h2{
+    padding-bottom: 70px;
+}
+.content2 .col-sm-3{
+    padding-top: 0;
+}
+.content2 img{
+    margin-bottom: 20px;
+}
+.content2 span b{
+    font-family: texgybold;
+    background-color: black;
+    color: #fffa65;
+    padding: 3px 3px 3px 3px;
+}
+.content2 span{
+    font-family: texgyreg;
+}
+.content3 h3{
+    font-family: texgyreg;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+.content3 h2 b{
+    font-family: texgybold;
+    font-size: 0.7em;
+    background-color: #fffa65;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.content4 .card{
+    min-height: 204px;
+    background-color: #fffa65;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 8px 10px #0abde3;
+    border: 0;
+}
+.content4 .card-title{
+    font-family: texgybold;
+}
+.content4 .card-text{
+    font-family: texgyreg;
+}
+.content5{
+    background-color: white;
+    width: 100%;
+    min-height: 200px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+    padding-bottom: 50px;
+}
+.content5 p{
+    font-family: texgyreg;
+}
+
+.hideme{
+    opacity: 0;
+}
+.content5 button{
+    margin-top: 20px;
+    background-color: #fffa65;
+    color: black;
+    font-size: 1.3em;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    border: 0;
+    font-family: texgybold;
+    box-shadow: 5px 10px #0abde3;
+}
+.content5 p b{
+    background-color: #fffa65;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.footer{
+    background-color: #fffa65;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.footer p{
+    padding-top: 15px;
+    font-family: texgyreg;
+}
+.footer i {
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.footer a{
+    color: black;
+}
+
+@font-face {
+    font-family: texgybold;
+    src: url("../fonts/texgyreadventor-bold.otf");
+}
+
+@font-face {
+    font-family: texgyreg;
+    src: url("../fonts/texgyreadventor-regular.otf");
+}
